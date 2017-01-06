@@ -9,6 +9,9 @@ import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { LayoutHeaderComponent } from './layout/layout-header/layout-header.component';
+import { LayoutBodyComponent } from './layout/layout-body/layout-body.component';
+import { LayoutFooterComponent } from './layout/layout-footer/layout-footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ContactComponent } from './contact/contact.component';
     LayoutComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    LayoutHeaderComponent,
+    LayoutBodyComponent,
+    LayoutFooterComponent
   ],
   imports: [
     BrowserModule,
